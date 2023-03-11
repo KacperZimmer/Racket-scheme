@@ -11,7 +11,7 @@
       (triangle losowa_liczba "solid" color)
       (beside/align "bottom" (landscape m color) (landscape m color)))))
 
-; Rysowanie planszy w oparciu o wcześniejsze funkcje i definicje
+; Rysowanie planszy w oparciu o wcześniejsze funkcje i definicje.
 (define (num_of_triangles n)
   (above (overlay/align "center" "bottom"
                       (landscape n "black")
